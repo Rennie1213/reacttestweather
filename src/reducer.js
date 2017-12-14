@@ -11,7 +11,7 @@ const weatherReducer = (state=initialState, action) => {
 
   switch (action.type) {
     case 'GET_LOCATION':
-      return { ...state, loadingLocation: true };
+      return { ...state, loadingLocation: true, loadingWeather: true };
 
     case 'UPDATE_LOCATION':
       return { ...state, location: action.payload, loadingLocation: false };

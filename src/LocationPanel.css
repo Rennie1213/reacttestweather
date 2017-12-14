@@ -1,0 +1,16 @@
+.location-container {
+	min-height: 62px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.location-container .location-name {
+	color: #01579B;
+	margin: 0 0 10px;
+}
+
+.location-container .location-date {
+	color: #ccc;
+	margin: 0;
+	font-size: 0.8em;
+}

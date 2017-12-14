@@ -1,5 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   font-family: sans-serif;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,33 @@
+.indicator-container {
+	padding: 25px 0;
+	min-height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.indicator-container img {
+	height: 80px;
+}
+
+.indicator-container img.rotate {
+	animation: rotate infinite linear;
+	animation-duration: 3.5s;
+}
+
+.indicator-container img.float {
+	animation: float infinite linear;
+	animation-duration: 3.5s;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes float {
+	0% { transform: translateY(0); }
+ 	25% { transform: translateY(10%); }
+ 	75% { transform: translateY(-10%); }
+ 	100% { transform: translateY(0%); }
+}

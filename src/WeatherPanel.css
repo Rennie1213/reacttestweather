@@ -1,0 +1,16 @@
+.temp-container {
+	min-height: 50px;
+	display: flex;
+}
+
+.temp-container > div {
+	width: 33%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #01579B;
+}
+
+.temp-container .main-temp {
+	font-size: 1.5em;
+}
